@@ -2,31 +2,30 @@ print "Welcome to the Calculator! Choose your operator (+, -, /, *): "
 operator = gets.chomp
 
 if operator == '+'
-    print "Enter number: "
+    print "Enter first number: "
     first_number = gets.chomp.to_i
-    if first_number
-    print "Second number: "
+    print "Enter second number: "
     second_number = gets.chomp.to_i
 
     puts first_number + second_number
 elsif operator == '-'
-    print "Enter number: "
+    print "Enter first number: "
     first_number = gets.chomp.to_i
-    print "Second number: "
+    print "Enter second number: "
     second_number = gets.chomp.to_i
 
     puts first_number - second_number
 elsif operator == '/'
-    print "Enter number: "
+    print "Enter first number: "
     first_number = gets.chomp.to_i
-    print "Second number: "
+    print "Enter second number: "
     second_number = gets.chomp.to_i
 
     puts first_number / second_number
 elsif operator == '*'
-    print "Enter number: "
+    print "Enter first number: "
     first_number = gets.chomp.to_i
-    print "Second number: "
+    print "Enter second number: "
     second_number = gets.chomp.to_i
 
     puts first_number * second_number
